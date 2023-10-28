@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Profile</title>
+    <link href="../bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="p-2">
+    <h1>User Profile</h1>
+    <div class="details-wrapper row container-fluid d-none">
+        <div class="col-12 col-sm-6">
+            <div class="image">
+                <img class="picture w-100" src="" alt="">
+            </div>
+        </div>
+        <div class="col-12 col-sm-6">
+            <div class="details">
+                <h2 class="name"></h2>
+                <p class="email"></p>
+                <a class="btn btn-primary" href="../">Back to home</a>
+            </div>
+        </div>
+    </div>
+    <div class="loading-spinner-wrapper container-fluid d-flex justify-content-center">
+        <div class="spinner-border" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+    </div>
+    <div class="container-fluid not-found d-none">
+        <h3>We have found a sock, but we were not able to find the user you are looking for..</h3>
+        <a class="btn btn-primary" href="../">Back to home</a>
+    </div>
+</body>
+<script src="../bootstrap.min.js"></script>
+<script src="../profile.js"></script>
+
+</html>
